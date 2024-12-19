@@ -14,9 +14,9 @@ with st.sidebar:
     ],
 )
     if genre == "Hombre":
-        st.write("Escogio Hombre.")
+        st.write("Selecciono Hombre.")
     else:
-        st.write("Escogio Mujer.")    
+        st.write("Selecciono Mujer.")    
     if st.button("Enviar informacion",icon=":material/thumb_up:"):
         st.write("Gracias por enviar la informacion ",nombres)
     else:
